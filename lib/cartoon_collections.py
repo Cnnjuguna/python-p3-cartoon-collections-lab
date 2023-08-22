@@ -1,6 +1,8 @@
+# numered list output
 def roll_call_dwarves(dwarves=["Doc", "Dopey", "Bashful", "Grumpy"]):
     for index, dwarf in enumerate(dwarves, start=1):
         print(f"{index}. {dwarf}")
+
     pass
 
 
